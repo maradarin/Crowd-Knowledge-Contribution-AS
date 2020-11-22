@@ -1,7 +1,10 @@
 ﻿using Crowd_Knowledge_Contribution.Models;
 using Crowd_Knowledge_Contribution_AS.Models;
+using Microsoft.AspNet.Identity;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -23,7 +26,8 @@ namespace Crowd_Knowledge_Contribution.Controllers
 
         public ActionResult Show(int id)
         {
-            Chapter chapter = db.Chapters.Find(id);
+            Chapter chapter = db.Chapters.Include("User").First(m => m.ChapterId == id);
+            Debug.WriteLine(chapter.User == null);
             ViewBag.Chapter = chapter;
             ViewBag.Article = chapter.Article;
             if (TempData.ContainsKey("message"))
@@ -43,10 +47,12 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [HttpPost]
         public ActionResult New(Chapter chapter)
         {
+            
             try
             {
                 if(ModelState.IsValid)
                 {
+                    chapter.UserId = User.Identity.GetUserId();
                     db.Chapters.Add(chapter);
                     db.SaveChanges();
                     TempData["mesage"] = "Capitolul a fost adaugat";

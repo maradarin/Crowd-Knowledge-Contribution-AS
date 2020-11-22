@@ -7,15 +7,20 @@
 }
 
 <div class="panel panel-default">
-    @Html.Partial("ArticleInfo", Model)
-    <div class="panel-footer">
-        <a class="btn btn-success pull-left" href="/Articles/Edit/@Model.ArticleId">Modifica articol</a>
 
-        @using (Html.BeginForm(actionName: "Delete", controllerName: "Articles", method: FormMethod.Post, routeValues: new { id = @Model.ArticleId }))
+    @Html.Partial("ArticleInfo", Model)
+
+    <div class="panel-footer">
+        @if (Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
         {
-            @Html.HttpMethodOverride(HttpVerbs.Delete)
-            <button class="btn btn-danger pull-right" type="submit">Sterge articol</button>
-        }
+            <a class="btn btn-success pull-left" href="/Articles/Edit/@Model.ArticleId">Modifica articol</a>
+            using (Html.BeginForm(actionName: "Delete", controllerName: "Articles", method: FormMethod.Post, routeValues: new { id = @Model.ArticleId }))
+            {
+                 @Html.HttpMethodOverride(HttpVerbs.Delete)
+                 <button class="btn btn-danger pull-right" type="submit">Sterge articol</button>
+            }
+         }
+
         <div class="clearfix"></div>
     </div>
 

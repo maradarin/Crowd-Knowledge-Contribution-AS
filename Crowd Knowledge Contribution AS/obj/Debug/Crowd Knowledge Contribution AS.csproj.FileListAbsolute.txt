@@ -105,3 +105,110 @@ C:\Users\Mara\source\repos\Crowd Knowledge Contribution AS\Crowd Knowledge Contr
 C:\Users\Mara\source\repos\Crowd Knowledge Contribution AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb
 C:\Users\Mara\source\repos\Crowd Knowledge Contribution AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd_Knowledge_Contribution_AS.Migrations.Initial.resources
 C:\Users\Mara\source\repos\Crowd Knowledge Contribution AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.GenerateResource.cache
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll.config
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.pdb
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe.config
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csc.rsp
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe.config
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\csi.rsp
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CSharp.Core.targets
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Managed.Core.targets
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.AppContext.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Collections.Immutable.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Console.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.StackTrace.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Compression.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Reflection.Metadata.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.AccessControl.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Claims.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Principal.Windows.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Text.Encoding.CodePages.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.ValueTuple.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.ReaderWriter.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XmlDocument.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.XDocument.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe.config
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\vbc.rsp
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe.config
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\EntityFramework.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Web.Infrastructure.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Owin.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Razor.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\WebGrease.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.Razor.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.pdb
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\EntityFramework.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csprojAssemblyReference.cache
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd_Knowledge_Contribution_AS.Migrations.Initial.resources
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.GenerateResource.cache
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CoreCompileInputs.cache
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CopyComplete
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.dll
+L:\Cursuri\DAW dracu de materie\Proiect\Crowd-Knowledge-Contribution-AS-main\Crowd-Knowledge-Contribution-AS-main\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb

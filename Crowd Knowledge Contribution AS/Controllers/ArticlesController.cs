@@ -28,7 +28,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [Authorize(Roles = "User,Editor,Admin")]
         public ActionResult Show(int id)
         {
-            Article article = db.Articles.Find(id);
+            Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
             //ViewBag.Article = article;
             //ViewBag.Chapters = article.Chapters;
             //ViewBag.Category = article.Category;
@@ -51,7 +51,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Editor,Admin")]
+        [Authorize(Roles = "User,Editor,Admin")]
         public ActionResult New(Article article)
         {
             article.LastModified = DateTime.Now;
@@ -81,7 +81,6 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [Authorize(Roles = "Editor,Admin")]
         public ActionResult Edit(int id)
         {
-
             Article article = db.Articles.Find(id);
             article.Categ = GetAllCategories();
             return View(article);
@@ -125,6 +124,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [Authorize(Roles = "Editor,Admin")]
         public ActionResult Delete(int id)
         {
+
             Article article = db.Articles.Find(id);
             db.Articles.Remove(article);
             db.SaveChanges();
