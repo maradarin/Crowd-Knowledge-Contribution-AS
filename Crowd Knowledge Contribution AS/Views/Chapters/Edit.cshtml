@@ -1,0 +1,27 @@
+﻿@model Crowd_Knowledge_Contribution.Models.Chapter
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Chapters"))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+    <br />
+    @Html.HiddenFor(m => m.ChapterId)
+
+    @Html.Label("Title", "Titlu capitol")
+    <br />
+    @Html.EditorFor(m => m.ChapterTitle)
+    @Html.ValidationMessage("ChapterTitle", null, new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.Label("Content", "Continut capitol")
+    <br />
+    @Html.EditorFor(m => m.ChapterContent)
+    @Html.ValidationMessage("ChapterContent", null, new { @class = "text-danger" })
+    <br /><br />
+
+    <button class="btn btn-sm btn-success" type="submit"> Modifica capitol </button>
+}

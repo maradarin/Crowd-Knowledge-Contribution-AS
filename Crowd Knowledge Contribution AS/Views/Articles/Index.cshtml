@@ -1,0 +1,17 @@
+﻿
+<h1>@ViewBag.Message</h1>
+
+
+
+@foreach (Crowd_Knowledge_Contribution.Models.Article article in ViewBag.Articles)
+{
+<div class="panel panel-default">
+    @Html.Partial("ArticleInfo", article)
+    <div class="panel-footer">
+        <a class="btn btn-sm btn btn-success" href="/Articles/Show/@article.ArticleId"> Afisare articol </a>
+    </div>
+</div>
+}
+<a href="/Articles/New">Adauga alt articol</a>
+<br />
+

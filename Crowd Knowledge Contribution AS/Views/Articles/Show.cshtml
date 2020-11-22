@@ -1,0 +1,44 @@
+﻿@model Crowd_Knowledge_Contribution.Models.Article
+
+@{
+                /**/
+
+                ViewBag.Title = "Show";
+}
+
+<div class="panel panel-default">
+    @Html.Partial("ArticleInfo", Model)
+    <div class="panel-footer">
+        <a class="btn btn-success pull-left" href="/Articles/Edit/@Model.ArticleId">Modifica articol</a>
+
+        @using (Html.BeginForm(actionName: "Delete", controllerName: "Articles", method: FormMethod.Post, routeValues: new { id = @Model.ArticleId }))
+        {
+            @Html.HttpMethodOverride(HttpVerbs.Delete)
+            <button class="btn btn-danger pull-right" type="submit">Sterge articol</button>
+        }
+        <div class="clearfix"></div>
+    </div>
+
+</div>
+
+
+<br />
+@foreach (var chapter in Model.Chapters)
+{
+    <div class="container">
+        <div class="row">
+            <a href="/Chapters/Show/@chapter.ChapterId" style="text-decoration:none">@chapter.ChapterTitle</a>  
+        </div>
+    </div>
+    <br />
+}
+
+
+
+<hr />
+<a href="/Articles/Index">Inapoi la lista articolelor</a>
+<br />
+<a href="/Articles/New">Adauga alt articol</a>
+<br />
+<a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
+<br />

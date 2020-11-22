@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach (var chapter in ViewBag.Chapters)
+{
+    <h2>@chapter.ChapterTitle</h2>
+    <br />
+    
+}

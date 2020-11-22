@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Afisare capitol";
+}
+
+<h1>@ViewBag.Chapter.ChapterTitle</h1>
+<p><p>@ViewBag.Article.ArticleTitle</p></p>
+<small>@ViewBag.Article.Category.CategoryName</small>
+<br />
+<strong> Continut </strong>
+<br />
+<p>@ViewBag.Chapter.ChapterContent</p>
+<br />
+<a href="/Chapters/Edit/@ViewBag.Chapter.ChapterId">
+    Modifica capitol
+</a>
+<form method="post" action="/Chapters/Delete/@ViewBag.Chapter.ChapterId">
+    @Html.HttpMethodOverride(HttpVerbs.Delete)
+    <button type="submit">Sterge capitol</button>
+</form>
+<hr />
+<a href="/Articles/Show/@ViewBag.Article.ArticleId">Inapoi la lista capitolelor</a>
+<br />
+<a href="/Chapters/New">Adauga alt capitol</a>
+<br />
+

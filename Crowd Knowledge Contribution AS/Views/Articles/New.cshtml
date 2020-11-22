@@ -1,0 +1,29 @@
+﻿@model Crowd_Knowledge_Contribution.Models.Article
+
+@{
+    ViewBag.Titlu = "New";
+}
+
+<h2>New</h2>
+@using (Html.BeginForm(actionName: "New", controllerName: "Articles"))
+{
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+    <!--label>Titlu articol</label-->
+    @Html.Label("ArticleTitle", "Titlu articol")
+    <!--click pe titlu articol -> focus pe textbox pt ca avem acelasi id (Title)-->
+    <!--input type="text" name="Title" /-->
+    @Html.TextBox("ArticleTitle", null, new { @class = "form-control" })
+    <!--nume din baza de date, valori implicite, proprietati de css-->
+    <br />
+    @Html.ValidationMessageFor(m => m.ArticleTitle, null, new { @class = "text-danger" })
+    <br /><br />
+
+
+    <label>Selectati categoria</label>
+    @Html.DropDownListFor(m => m.CategoryId, new SelectList(Model.Categ, "Value", "Text"),
+    "Selectati categoria", new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.CategoryId, "", new { @class = "text-danger" })
+    <br />
+    <br />
+    <button class="btn btn-success" type="submit">Adauga articol</button>
+}

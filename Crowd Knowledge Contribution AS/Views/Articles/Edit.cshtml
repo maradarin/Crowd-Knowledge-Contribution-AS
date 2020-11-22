@@ -1,0 +1,28 @@
+﻿@model Crowd_Knowledge_Contribution.Models.Article
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@using (Html.BeginForm(actionName: "Edit", controllerName: "Articles"))
+{
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+    <br />
+    @Html.HiddenFor(m => m.ArticleId)
+
+    @Html.Label("ArticleTitle", "Titlu articol")
+    <br />
+    @Html.Editor("ArticleTitle")
+    @Html.ValidationMessageFor(m => m.ArticleTitle, "", new { @class = "text-danger" })
+    <br /><br />
+
+    @Html.HiddenFor(m => m.LastModified)
+    <label>Selectati categoria</label>
+    @Html.DropDownListFor(m => m.CategoryId,
+        new SelectList(Model.Categ, "Value", "Text"),
+        "Selectati categoria", new { @class = "form-control" })
+    @Html.ValidationMessageFor(m => m.CategoryId, "", new { @class = "text-danger" })
+    <br />
+    <button class="btn btn-sm btn-success" type="submit"> Modifica articol </button>
+}
