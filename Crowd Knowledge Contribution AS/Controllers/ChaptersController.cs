@@ -71,12 +71,16 @@ namespace Crowd_Knowledge_Contribution.Controllers
 
         public ActionResult Edit(int id)
         {
-            Chapter chapter = db.Chapters.Find(id);
-            chapter.ArticleId = (from chapter_db in db.Chapters
-                                 where chapter_db.ChapterId == id
-                                 select chapter_db.ArticleId).FirstOrDefault();
+            Chapter chapter = db.Chapters.Include("Article").Include("User").First(m => m.ChapterId == id);
+            if (chapter.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+            {
+                //chapter.ArticleId = (from chapter_db in db.Chapters
+                //                     where chapter_db.ChapterId == id
+                //                     select chapter_db.ArticleId).FirstOrDefault();
+                return View(chapter);
+            }
             //ViewBag.Chapter = chapter;
-            return View(chapter);
+            return RedirectToAction("Index");
         }
 
         [HttpPut]
@@ -86,19 +90,24 @@ namespace Crowd_Knowledge_Contribution.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    Chapter chapter = db.Chapters.Find(id);
-                    if (TryUpdateModel(chapter))
+                    Chapter chapter = db.Chapters.Include("User").First(m => m.ChapterId == id);
+                    if (chapter.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
                     {
-                        chapter.ChapterTitle = requestChapter.ChapterTitle;
-                        chapter.ChapterContent = requestChapter.ChapterContent;
-                        TempData["message"] = "Capitolul a fost editat";
-                        db.SaveChanges();
-                        return Redirect("/Chapters/Show/" + chapter.ChapterId.ToString());
+                        if (TryUpdateModel(chapter))
+                        {
+                            chapter.ChapterTitle = requestChapter.ChapterTitle;
+                            chapter.ChapterContent = requestChapter.ChapterContent;
+                            TempData["message"] = "Capitolul a fost editat";
+                            db.SaveChanges();
+                            return Redirect("/Chapters/Show/" + chapter.ChapterId.ToString());
+                        }
+                        else
+                        {
+                            return View(requestChapter);
+                        }
                     }
                     else
-                    {
                         return View(requestChapter);
-                    }
                 }
                 else
                 {
@@ -114,9 +123,12 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [HttpDelete]
         public ActionResult Delete(int id)
         {
-            Chapter chapter = db.Chapters.Find(id);
-            db.Chapters.Remove(chapter);
-            db.SaveChanges();
+            Chapter chapter = db.Chapters.Include("User").First(m => m.ChapterId == id);
+            if (chapter.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+            {
+                db.Chapters.Remove(chapter);
+                db.SaveChanges();
+            }
             return Redirect("/Articles/Show/" + chapter.ArticleId.ToString());
         }
     }

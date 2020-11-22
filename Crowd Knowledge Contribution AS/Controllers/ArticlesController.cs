@@ -51,7 +51,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "User,Editor,Admin")]
+        [Authorize(Roles = "Editor,Admin")]
         public ActionResult New(Article article)
         {
             article.LastModified = DateTime.Now;
@@ -81,9 +81,13 @@ namespace Crowd_Knowledge_Contribution.Controllers
         [Authorize(Roles = "Editor,Admin")]
         public ActionResult Edit(int id)
         {
-            Article article = db.Articles.Find(id);
-            article.Categ = GetAllCategories();
-            return View(article);
+            Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+            if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+            {
+                article.Categ = GetAllCategories();
+                return View(article);
+            }
+            return RedirectToAction("Index");
         }
 
         [HttpPut]
@@ -91,33 +95,41 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Edit(int id, Article requestArticle)
         {
             requestArticle.Categ = GetAllCategories();
-            try
-            {
-                if (ModelState.IsValid)
+            
+                try
                 {
-                    Article article = db.Articles.Find(id);
-
-                    if (TryUpdateModel(article))
+                    if (ModelState.IsValid)
                     {
-                        //article = requestArticle;
-                        article.ArticleTitle = requestArticle.ArticleTitle;
-                        //article.LastModified = requestArticle.LastModified;
-                        article.CategoryId = requestArticle.CategoryId;
-                        db.SaveChanges();
-                        TempData["message"] = "Articolul a fost modificat!";
+                        Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+                        if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+                        {
+                            if (TryUpdateModel(article))
+                            {
+                                //article = requestArticle;
+                                article.ArticleTitle = requestArticle.ArticleTitle;
+                                //article.LastModified = requestArticle.LastModified;
+                                article.CategoryId = requestArticle.CategoryId;
+                                db.SaveChanges();
+                                TempData["message"] = "Articolul a fost modificat!";
+                            }
+                            return RedirectToAction("Index");
+                        }
+                        else
+                        {
+                            return View(requestArticle);
+                        }
                     }
-                    return RedirectToAction("Index");
+                    else
+                    {
+                        return View(requestArticle);
+                    }
+
                 }
-                else
+                catch (Exception e)
                 {
                     return View(requestArticle);
                 }
-
-            }
-            catch (Exception e)
-            {
-                return View(requestArticle);
-            }
+            return View();
         }
 
         [HttpDelete]
@@ -125,11 +137,16 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Delete(int id)
         {
 
-            Article article = db.Articles.Find(id);
-            db.Articles.Remove(article);
-            db.SaveChanges();
-            TempData["message"] = "Articolul a fost sters";
-            return RedirectToAction("Index");
+            Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+            if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+            {
+                db.Articles.Remove(article);
+                db.SaveChanges();
+                TempData["message"] = "Articolul a fost sters";
+                return RedirectToAction("Index");
+            }
+
+            return View();
         }
 
         [NonAction] // metoda nu va putea fi accesata din ruta
