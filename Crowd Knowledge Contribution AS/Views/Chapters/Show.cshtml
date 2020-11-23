@@ -7,7 +7,7 @@
 <br />
 <strong> Continut </strong>
 <br />
-<p>@ViewBag.Chapter.ChapterContent</p>
+<p> @Html.Raw(ViewBag.Chapter.ChapterContent)</p>
 <br />
 @if (ViewBag.Chapter.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
 {

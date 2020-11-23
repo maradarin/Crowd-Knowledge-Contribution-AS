@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace Crowd_Knowledge_Contribution.Models
 {
@@ -17,6 +18,7 @@ namespace Crowd_Knowledge_Contribution.Models
         public string ChapterTitle { get; set; }
 
         [Required(ErrorMessage = "Continutul este obligatoriu")]
+        [AllowHtml]
         [DataType(DataType.MultilineText)]
         public string ChapterContent { get; set; }
 
