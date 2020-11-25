@@ -319,3 +319,110 @@ L:\GitHub\Crowd-Knowledge-Contribution\Crowd Knowledge Contribution AS\obj\Debug
 L:\GitHub\Crowd-Knowledge-Contribution\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CopyComplete
 L:\GitHub\Crowd-Knowledge-Contribution\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.dll
 L:\GitHub\Crowd-Knowledge-Contribution\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll.config
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.pdb
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe.config
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csc.rsp
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe.config
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\csi.rsp
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.AppContext.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Console.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Claims.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe.config
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\vbc.rsp
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\EntityFramework.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Owin.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Razor.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\WebGrease.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.Razor.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.pdb
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\EntityFramework.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csprojAssemblyReference.cache
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd_Knowledge_Contribution_AS.Migrations.Initial.resources
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.GenerateResource.cache
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CoreCompileInputs.cache
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CopyComplete
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.dll
+C:\Users\Mara\Documents\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb

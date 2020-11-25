@@ -28,31 +28,32 @@ namespace Crowd_Knowledge_Contribution.Controllers
         {
             Chapter chapter = db.Chapters.Include("User").First(m => m.ChapterId == id);
             Debug.WriteLine(chapter.User == null);
-            ViewBag.Chapter = chapter;
-            ViewBag.Article = chapter.Article;
+            //ViewBag.Chapter = chapter;
+            //ViewBag.Article = chapter.Article;
             if (TempData.ContainsKey("message"))
             {
                 ViewBag.Message = TempData["message"];
             }
-            return View();
+            return View(chapter);
         }
 
         public ActionResult New(int id)
         {
             Chapter chapter = new Chapter();
             chapter.ArticleId = id;
+            chapter.UserId = User.Identity.GetUserId();
             return View(chapter);
         }
 
         [HttpPost]
         public ActionResult New(Chapter chapter)
         {
-            
+            chapter.UserId = User.Identity.GetUserId();
             try
             {
                 if(ModelState.IsValid)
                 {
-                    chapter.UserId = User.Identity.GetUserId();
+                    //chapter.UserId = User.Identity.GetUserId();
                     db.Chapters.Add(chapter);
                     db.SaveChanges();
                     TempData["mesage"] = "Capitolul a fost adaugat";
