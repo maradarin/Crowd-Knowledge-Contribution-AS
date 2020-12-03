@@ -55,9 +55,9 @@ namespace Crowd_Knowledge_Contribution_AS
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "2819742388314879",
+               appSecret: "6589f6c79835c964cc6b16b86c53fc5d");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
