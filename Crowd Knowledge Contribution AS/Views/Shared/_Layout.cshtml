@@ -22,18 +22,21 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <!--nume metoda controller-->
-                    <li>@Html.ActionLink("Afisare articole", "Index", "Articles")</li>
-
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <li>@Html.ActionLink("Afisare Categorii", "Index", "Categories")</li>
-                        <li>@Html.ActionLink("Adaugare Categorie", "New", "Categories")</li>
-                    }
+                    <li>@Html.ActionLink("Afisare Articole", "Index", "Articles")</li>
 
                     @if (User.IsInRole("Editor") || User.IsInRole("Admin"))
                     {
                         <li>@Html.ActionLink("Adaugare Articol", "New", "Articles")</li>
                     }
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li>@Html.ActionLink("Afisare Categorii", "Index", "Categories")</li>
+                        <li>@Html.ActionLink("Adaugare Categorie", "New", "Categories")</li>
+                        <li>@Html.ActionLink("Afisare utilizatori", "Index", "Users")</li>
+                    }
+
+
 
                 </ul>
                 @Html.Partial("_LoginPartial")
