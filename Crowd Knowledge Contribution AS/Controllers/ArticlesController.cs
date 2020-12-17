@@ -3,6 +3,7 @@ using Crowd_Knowledge_Contribution_AS.Models;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -17,11 +18,29 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Index()
         {
             var articles = db.Articles.Include("Category").Include("User");
-            ViewBag.Articles = articles;
+
+            var search = "";
+            if(Request.Params.Get("search") != null)
+            {
+                search = Request.Params.Get("search").Trim();
+                List<int> articleIds = db.Articles.Where(at => at.ArticleTitle.Contains(search)).Select(a => a.ArticleId).ToList();
+                List<int> chapterIds = db.Chapters.Where(c => c.ChapterContent.Contains(search)).Select(ch => ch.ArticleId).ToList();
+                List<int> chapterIds2 = db.Chapters.Where(c => c.ChapterTitle.Contains(search)).Select(ch => ch.ArticleId).ToList();
+                //Search by category
+                /******* needs work *******/
+                //List<int> categoryIds = db.Categories.Where(cat => cat.CategoryName.Contains(search)).Select(ct => ct.CategoryId).ToList();
+                List<int> mergedIds = articleIds.Union(chapterIds).Union(chapterIds2).ToList();
+                articles = (System.Data.Entity.Infrastructure.DbQuery<Article>)db.Articles.Where(article => mergedIds.Contains(article.ArticleId)).Include("Category").Include("User").OrderBy(a => a.LastModified);
+            }
+
+            var totalItems = articles.Count();
             if (TempData.ContainsKey("message"))
             {
                 ViewBag.Message = TempData["message"];
             }
+            ViewBag.total = totalItems;
+            ViewBag.Articles = articles;
+            ViewBag.SearchString = search;
             return View();
         }
 
