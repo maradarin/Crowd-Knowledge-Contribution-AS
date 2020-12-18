@@ -10,8 +10,10 @@
 <br />
 <p> @Html.Raw(Model.ChapterContent)</p>
 <br />
-@if (Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+@if ((Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && User.IsInRole("Editor")) || User.IsInRole("Admin"))
 {
+    <a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
+    <br />
     <a href="/Chapters/Edit/@Model.ChapterId">
         Modifica capitol
     </a>
@@ -22,7 +24,5 @@
 }
 <hr />
 <a href="/Articles/Show/@Model.ArticleId">Inapoi la lista capitolelor</a>
-<br />
-<a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
 <br />
 

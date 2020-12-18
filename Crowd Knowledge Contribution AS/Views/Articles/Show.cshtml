@@ -1,9 +1,9 @@
 ﻿@model Crowd_Knowledge_Contribution.Models.Article
 
 @{
-                /**/
+    /**/
 
-                ViewBag.Title = "Show";
+    ViewBag.Title = "Show";
 }
 
 <div class="panel panel-default">
@@ -11,13 +11,13 @@
     @Html.Partial("ArticleInfo", Model)
 
     <div class="panel-footer">
-        @if (Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+        @if ((Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && User.IsInRole("Editor")) || User.IsInRole("Admin"))
         {
             <a class="btn btn-success pull-left" href="/Articles/Edit/@Model.ArticleId">Modifica articol</a>
             using (Html.BeginForm(actionName: "Delete", controllerName: "Articles", method: FormMethod.Post, routeValues: new { id = @Model.ArticleId }))
             {
-                 @Html.HttpMethodOverride(HttpVerbs.Delete)
-                 <button class="btn btn-danger pull-right" type="submit">Sterge articol</button>
+                @Html.HttpMethodOverride(HttpVerbs.Delete)
+                <button class="btn btn-danger pull-right" type="submit">Sterge articol</button>
             }
         }
 
@@ -32,7 +32,7 @@
 {
     <div class="container">
         <div class="row">
-            <a href="/Chapters/Show/@chapter.ChapterId" style="text-decoration:none">@chapter.ChapterTitle</a>  
+            <a href="/Chapters/Show/@chapter.ChapterId" style="text-decoration:none">@chapter.ChapterTitle</a>
         </div>
     </div>
     <br />
@@ -43,7 +43,11 @@
 <hr />
 <a href="/Articles/Index">Inapoi la lista articolelor</a>
 <br />
-<a href="/Articles/New">Adauga alt articol</a>
-<br />
-<a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
-<br />
+
+@if ((Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && User.IsInRole("Editor")) || User.IsInRole("Admin"))
+{
+    <a href="/Articles/New">Adauga alt articol</a>
+    <br />
+    <a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
+    <br />
+}

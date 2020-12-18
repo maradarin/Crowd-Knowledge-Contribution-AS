@@ -80,6 +80,10 @@
         </div>
     </div>
 }
-<a href="/Articles/New">Adauga un articol</a>
-<br />
+
+@if (User.IsInRole("Admin") || User.IsInRole("Editor"))
+{
+    <a href="/Articles/New">Adauga un articol</a>
+    <br/>
+}
 
