@@ -71,6 +71,11 @@
     </nav>
 </div>
 
+@Html.ActionLink("Article Title", "Sorting", new { sortOrder = "articleTitle" })
+@Html.ActionLink("Last Modified", "Sorting", new { sortOrder = "lastModified" })
+@Html.ActionLink("User Name", "Sorting", new { sortOrder = "userName" })
+
+
 @foreach (Crowd_Knowledge_Contribution.Models.Article article in ViewBag.Articles)
 {
     <div class="panel panel-default">
@@ -84,6 +89,6 @@
 @if (User.IsInRole("Admin") || User.IsInRole("Editor"))
 {
     <a href="/Articles/New">Adauga un articol</a>
-    <br/>
+    <br />
 }
 

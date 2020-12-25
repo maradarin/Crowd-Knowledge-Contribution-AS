@@ -20,7 +20,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
             var articles = db.Articles.Include("Category").Include("User");
 
             var search = "";
-            if(Request.Params.Get("search") != null)
+            if (Request.Params.Get("search") != null)
             {
                 search = Request.Params.Get("search").Trim();
                 List<int> articleIds = db.Articles.Where(at => at.ArticleTitle.Contains(search)).Select(a => a.ArticleId).ToList();
@@ -42,6 +42,30 @@ namespace Crowd_Knowledge_Contribution.Controllers
             ViewBag.Articles = articles;
             ViewBag.SearchString = search;
             return View();
+        }
+
+        [Authorize(Roles = "User,Editor,Admin")]
+        public ActionResult Sorting(string sortOrder)
+        {
+            var articles = from a in db.Articles
+                           select a;
+            switch (sortOrder)
+            {
+                case "articleTitle":
+                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.ArticleTitle);
+                    break;
+                case "lastModified":
+                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.LastModified);
+                    break;
+                case "userName":
+                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.User.UserName);
+                    break;
+                default:
+                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.ArticleTitle);
+                    break;
+            }
+            ViewBag.Articles = articles;
+            return View("Index");
         }
 
         [Authorize(Roles = "User,Editor,Admin")]
