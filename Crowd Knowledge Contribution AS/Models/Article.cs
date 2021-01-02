@@ -28,6 +28,7 @@ namespace Crowd_Knowledge_Contribution.Models
         public ApplicationUser User { get; set; }   // un articol e scris de un utilizator
 
         public virtual ICollection<Chapter> Chapters { get; set; }
+
         public virtual Category Category { get; set; }
 
         public IEnumerable<SelectListItem> Categ { get; set; } // elementele desfasurate din meniul drop-down

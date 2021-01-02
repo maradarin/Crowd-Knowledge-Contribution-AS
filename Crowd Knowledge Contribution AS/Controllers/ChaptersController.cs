@@ -92,8 +92,32 @@ namespace Crowd_Knowledge_Contribution.Controllers
                 if (ModelState.IsValid)
                 {
                     Chapter chapter = db.Chapters.Include("User").First(m => m.ChapterId == id);
+                    Modification modificationTitle = new Modification();
+                    Modification modificationChapter = new Modification();
                     if (chapter.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
                     {
+                        if (chapter.ChapterTitle != requestChapter.ChapterTitle)
+                        {
+                            modificationTitle.OldInfo = chapter.ChapterTitle;
+                            modificationTitle.NewInfo = requestChapter.ChapterTitle;
+                            modificationTitle.ModifiedController = "Chapters";
+                            modificationTitle.ModifiedField = "ChapterTitle";
+                            modificationTitle.LastModified = DateTime.Now;
+                            modificationTitle.ComponentId = chapter.ChapterId;
+                            db.Modifications.Add(modificationTitle);
+                        }
+
+                        if (chapter.ChapterContent != requestChapter.ChapterContent)
+                        {
+                            modificationChapter.OldInfo = chapter.ChapterContent;
+                            modificationChapter.NewInfo = requestChapter.ChapterContent;
+                            modificationChapter.ModifiedController = "Chapters";
+                            modificationChapter.ModifiedField = "ChapterContent";
+                            modificationChapter.LastModified = DateTime.Now;
+                            modificationChapter.ComponentId = chapter.ChapterId;
+                            db.Modifications.Add(modificationChapter);
+                        }
+
                         if (TryUpdateModel(chapter))
                         {
                             chapter.ChapterTitle = requestChapter.ChapterTitle;
@@ -131,6 +155,38 @@ namespace Crowd_Knowledge_Contribution.Controllers
                 db.SaveChanges();
             }
             return Redirect("/Articles/Show/" + chapter.ArticleId.ToString());
+        }
+
+        public ActionResult Update(int id, string field, string info, int idModif)
+        {
+            List<Modification> invalidModifications;
+            Chapter chapter = db.Chapters.First(a => a.ChapterId == id);
+            if (TryUpdateModel(chapter))
+            {
+                if (field == "ChapterTitle")
+                {
+                    chapter.ChapterTitle = info;
+                    invalidModifications = db.Modifications.Where(m => m.ModificationId >= idModif && m.ModifiedField == "ChapterTitle").ToList();
+                }
+                else
+                {
+                    chapter.ChapterContent = info;
+                    invalidModifications = db.Modifications.Where(m => m.ModificationId >= idModif && m.ModifiedField == "ChapterContent").ToList();
+                }
+                for (var i = 0; i < invalidModifications.Count(); i++)
+                {
+                    Modification modification = invalidModifications[i];
+                    db.Modifications.Remove(modification);
+                }
+
+                db.SaveChanges();
+                TempData["message"] = "Capitolul a revenit la versiunea anterioara!";
+                return RedirectToAction("Show", "Chapters", new { id = chapter.ChapterId });
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
     }
 }

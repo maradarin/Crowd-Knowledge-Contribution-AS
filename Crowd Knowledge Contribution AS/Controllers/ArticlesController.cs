@@ -18,7 +18,6 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Index()
         {
             var articles = db.Articles.Include("Category").Include("User");
-
             var search = "";
             if (Request.Params.Get("search") != null)
             {
@@ -125,9 +124,12 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Edit(int id)
         {
             Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+            Modification modification = new Modification();
             if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
             {
+                modification.ModifiedController = "Articles";
                 article.Categ = GetAllCategories();
+                var tuple = new Tuple<Article, Modification>(article, modification);
                 return View(article);
             }
             return RedirectToAction("Index");
@@ -138,40 +140,51 @@ namespace Crowd_Knowledge_Contribution.Controllers
         public ActionResult Edit(int id, Article requestArticle)
         {
             requestArticle.Categ = GetAllCategories();
-            
-                try
+            Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+            Modification modification = new Modification();
+            try
+            {
+                if (ModelState.IsValid)
                 {
-                    if (ModelState.IsValid)
+                    //Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
+                    if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
                     {
-                        Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
-                        if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+                        if (article.ArticleTitle != requestArticle.ArticleTitle)
                         {
-                            if (TryUpdateModel(article))
-                            {
-                                //article = requestArticle;
-                                article.ArticleTitle = requestArticle.ArticleTitle;
-                                //article.LastModified = requestArticle.LastModified;
-                                article.CategoryId = requestArticle.CategoryId;
-                                db.SaveChanges();
-                                TempData["message"] = "Articolul a fost modificat!";
-                            }
-                            return RedirectToAction("Index");
+                            modification.OldInfo = article.ArticleTitle;
+                            modification.NewInfo = requestArticle.ArticleTitle;
+                            modification.ModifiedController = "Articles";
+                            modification.ModifiedField = "ArticleTitle";
+                            modification.LastModified = DateTime.Now;
+                            modification.ComponentId = article.ArticleId;
+                            db.Modifications.Add(modification);
                         }
-                        else
+                        if (TryUpdateModel(article))
                         {
-                            return View(requestArticle);
+                            article.ArticleTitle = requestArticle.ArticleTitle;
+                            //article.LastModified = requestArticle.LastModified;
+                            article.CategoryId = requestArticle.CategoryId;
+                            
+                            db.SaveChanges();
+                            TempData["message"] = "Articolul a fost modificat!";
                         }
+                        return RedirectToAction("Index");
                     }
                     else
                     {
                         return View(requestArticle);
                     }
-
                 }
-                catch (Exception e)
+                else
                 {
                     return View(requestArticle);
                 }
+
+            }
+            catch (Exception e)
+            {
+                return View(requestArticle);
+            }
             return View();
         }
 
@@ -225,6 +238,30 @@ namespace Crowd_Knowledge_Contribution.Controllers
 
             // returnam lista de categorii
             return selectList;
+        }
+
+        //[NonAction]
+        public ActionResult Update(int id, string info, int idModif)
+        {
+            Article article = db.Articles.First(a => a.ArticleId == id);
+            if(TryUpdateModel(article))
+            {
+                article.ArticleTitle = info;
+                List<Modification> invalidModifications = db.Modifications.Where(m => m.ModificationId >= idModif).ToList();
+                for(var i = 0; i < invalidModifications.Count(); i++)
+                {
+                    Modification modification = invalidModifications[i];
+                    db.Modifications.Remove(modification);
+                }
+
+                db.SaveChanges();
+                TempData["message"] = "Articolul a revenit la versiunea anterioara!";
+                return RedirectToAction("Show", "Articles", new { id = article.ArticleId });
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
     }
 }

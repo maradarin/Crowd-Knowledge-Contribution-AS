@@ -34,6 +34,7 @@ namespace Crowd_Knowledge_Contribution_AS.Models
         public DbSet<Article> Articles { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Chapter> Chapters { get; set; }
+        public DbSet<Modification> Modifications { get; set; }
 
         public static ApplicationDbContext Create()
         {

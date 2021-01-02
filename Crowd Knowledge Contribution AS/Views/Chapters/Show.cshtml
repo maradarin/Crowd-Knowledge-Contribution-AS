@@ -21,6 +21,10 @@
         @Html.HttpMethodOverride(HttpVerbs.Delete)
         <button type="submit">Sterge capitol</button>
     </form>
+
+    <hr />
+    <a href="/Modifications/IndexChapter/@Model.ChapterId">Afisati modificarile</a>
+    <br />
 }
 <hr />
 <a href="/Articles/Show/@Model.ArticleId">Inapoi la lista capitolelor</a>
