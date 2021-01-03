@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Show";
+}
+
+<h2>Show</h2>
+
+<h3>@ViewBag.Category.CategoryName</h3>
+
+@Html.ActionLink("Article Title", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "articleTitle" })
+@Html.ActionLink("Last Modified", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "lastModified" })
+@Html.ActionLink("User Name", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "userName" })
+
+@foreach (Crowd_Knowledge_Contribution.Models.Article article in ViewBag.Articles)
+{
+    <div class="panel panel-default">
+        <div class="panel-footer">
+            <p>@article.ArticleTitle</p>
+            <a class="btn btn-sm btn btn-success" href="/Articles/Show/@article.ArticleId"> Afisare articol </a>
+        </div>
+    </div>
+}
+
+
