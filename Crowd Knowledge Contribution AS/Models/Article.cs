@@ -33,5 +33,7 @@ namespace Crowd_Knowledge_Contribution.Models
 
         public IEnumerable<SelectListItem> Categ { get; set; } // elementele desfasurate din meniul drop-down
 
+        public bool BaiatRau { get; set; }
+
     }
 }

@@ -125,7 +125,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
         {
             Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
             Modification modification = new Modification();
-            if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+            if ((article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && !article.BaiatRau) || User.IsInRole("Admin"))
             {
                 modification.ModifiedController = "Articles";
                 article.Categ = GetAllCategories();
@@ -147,7 +147,7 @@ namespace Crowd_Knowledge_Contribution.Controllers
                 if (ModelState.IsValid)
                 {
                     //Article article = db.Articles.Include("User").First(m => m.ArticleId == id);
-                    if (article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name || User.IsInRole("Admin"))
+                    if ((article.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && !article.BaiatRau) || User.IsInRole("Admin"))
                     {
                         if (article.ArticleTitle != requestArticle.ArticleTitle)
                         {
@@ -186,6 +186,19 @@ namespace Crowd_Knowledge_Contribution.Controllers
                 return View(requestArticle);
             }
             return View();
+        }
+
+        [HttpPut]
+        [Authorize(Roles = "Admin")]
+        public ActionResult Restrict(int id)
+        {
+            var articol = db.Articles.Find(id);
+            if (TryUpdateModel(articol))
+            {
+                articol.BaiatRau = !articol.BaiatRau;
+                db.SaveChanges();
+            }
+            return Redirect("/Articles/Show/" + id);
         }
 
         [HttpDelete]
