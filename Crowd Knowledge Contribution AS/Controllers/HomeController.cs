@@ -31,7 +31,12 @@ namespace Crowd_Knowledge_Contribution_AS.Controllers
             ViewBag.Articles = articles;
             return View();
         }
+        public ActionResult NotFound()
+        {
+            ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
         public ActionResult Show(int id, string sortOrder)
         {
             List<Article> articles = db.Articles.Where(a => a.CategoryId == id).ToList();

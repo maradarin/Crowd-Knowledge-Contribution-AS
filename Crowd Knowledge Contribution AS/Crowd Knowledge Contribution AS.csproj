@@ -206,6 +206,7 @@
     <Content Include="Content\loginpartialstyle.css" />
     <Content Include="Content\loginstyle.css" />
     <Content Include="Content\modifchapterstyle.css" />
+    <Content Include="Content\notfoundstyle.css" />
     <Content Include="Content\usereditstyle.css" />
     <Content Include="Content\userindexstyle.css" />
     <Content Include="favicon.ico" />
@@ -340,6 +341,7 @@
     <Content Include="Views\Modifications\IndexArticle.cshtml" />
     <Content Include="Views\Modifications\IndexChapter.cshtml" />
     <Content Include="Views\Home\Show.cshtml" />
+    <Content Include="Views\Home\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
