@@ -5,55 +5,67 @@
 
     ViewBag.Title = "Editare rol utilizator";
 }
+    <head>
+        <link rel="stylesheet" href="~/Content/usereditstyle.css">
+    </head>
 
 <ol class="breadcrumb">
     <li><h3>@ViewBag.Title</h3></li>
 </ol>
 
-@using (Html.BeginForm(actionName: "Edit", controllerName: "Users", routeValues: new { id = @Model.Id }))
-{
-    @Html.HttpMethodOverride(HttpVerbs.Put)
+<div class="eform">
+    <div class="eformcontent">
+        @using (Html.BeginForm(actionName: "Edit", controllerName: "Users", routeValues: new { id = @Model.Id }))
+        {
+            @Html.HttpMethodOverride(HttpVerbs.Put)
 
-    <br />
+            <br />
 
-    <i class="glyphicon glyphicon-user"></i>
-    @Html.Label("UserName", "Nume utilizator", new { @class = "" })
+            <i class="glyphicon glyphicon-user"></i>
+            <div class="etxt">
+                @Html.Label("UserName", "Nume utilizator", new { @class = "" })
+            </div>
 
-    <br />
+            <br />
 
-    @Html.EditorFor(m => m.UserName)
+            @Html.EditorFor(m => m.UserName)
 
-    <br />
-    <br />
+            <br />
+            <br />
 
-    <i class="glyphicon glyphicon-envelope"></i>
-    @Html.Label("Email", "Email utilizator", new { @class = "" })
+            <i class="glyphicon glyphicon-envelope"></i>
+            <div class="etxt">
+            @Html.Label("Email", "Email utilizator", new { @class = "" })
+            </div>
+            <br />
 
-    <br />
+            @Html.EditorFor(m => m.Email)
 
-    @Html.EditorFor(m => m.Email)
+            <br />
+            <br />
 
-    <br />
-    <br />
+            <i class="glyphicon glyphicon-phone"></i>
+            <div class="etxt">
+            @Html.Label("PhoneNumber", "Numar telefon")
+            </div>
 
-    <i class="glyphicon glyphicon-phone"></i>
-    @Html.Label("PhoneNumber", "Numar telefon")
+            <br />
 
-    <br />
+            @Html.EditorFor(m => m.PhoneNumber)
 
-    @Html.EditorFor(m => m.PhoneNumber)
+            <br />
+            <br />
 
-    <br />
-    <br />
+            <i class="glyphicon glyphicon-th-list"></i>
+            <label class="etxt">Selectati rolul</label>
+            @Html.DropDownList("newRole", new SelectList(Model.AllRoles, "Value", "Text", ViewBag.userRole), null, new { @class = "form-control" })
 
-    <i class="glyphicon glyphicon-th-list"></i>
-    <label>Selectati rolul</label>
-    @Html.DropDownList("newRole", new SelectList(Model.AllRoles, "Value", "Text", ViewBag.userRole), null, new { @class = "form-control" })
+            <br />
 
-    <br />
-
-    <button class="btn btn-sm btn-success" type="submit">Modifica datele utilizatorului</button>
+            <button class="emodif" type="submit">Modifica datele utilizatorului</button>
 
 
-}
+          }
+     </div>
+</div>
 

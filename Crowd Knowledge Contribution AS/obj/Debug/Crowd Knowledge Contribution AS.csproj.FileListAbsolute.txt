@@ -640,3 +640,110 @@ L:\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\De
 L:\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CopyComplete
 L:\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.dll
 L:\GitHub\Crowd-Knowledge-Contribution-AS\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll.config
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Crowd Knowledge Contribution AS.pdb
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csc.exe.config
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csc.rsp
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csi.exe.config
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\csi.rsp
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.CSharp.Core.targets
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.Managed.Core.targets
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.AppContext.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Collections.Immutable.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Console.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Diagnostics.StackTrace.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Compression.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.IO.Pipes.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Reflection.Metadata.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.AccessControl.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Claims.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Security.Principal.Windows.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Text.Encoding.CodePages.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.ValueTuple.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.ReaderWriter.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XmlDocument.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\System.Xml.XPath.XDocument.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\vbc.exe.config
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\vbc.rsp
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\roslyn\VBCSCompiler.exe.config
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\EntityFramework.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Web.Infrastructure.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Owin.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Razor.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\WebGrease.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Helpers.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Mvc.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Optimization.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.Razor.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Deployment.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\System.Web.WebPages.Razor.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Newtonsoft.Json.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Antlr3.Runtime.pdb
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\EntityFramework.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\EntityFramework.SqlServer.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Core.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.Owin.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Host.SystemWeb.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Facebook.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Cookies.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Google.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.Twitter.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.Owin.Security.OAuth.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csprojAssemblyReference.cache
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd_Knowledge_Contribution_AS.Migrations.Initial.resources
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.GenerateResource.cache
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CoreCompileInputs.cache
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.csproj.CopyComplete
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.dll
+L:\GitHub\Crowd-Knowledge-Contribution-AS-Front\Crowd Knowledge Contribution AS\obj\Debug\Crowd Knowledge Contribution AS.pdb

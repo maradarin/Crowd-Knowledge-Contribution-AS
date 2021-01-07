@@ -1,0 +1,18 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.dateuser {
+    border: 1px solid darkred;
+    font-family: "Staatliches",cursive;
+    text-shadow: 2px 2px darkred;
+    color:white;
+    width:500px;
+    padding: 10px 10px 10px 10px;
+}
+
+.ilink {
+    background-color: darkgreen;
+    text-shadow: 2px 2px darkgreen;
+    border-radius: 2px;
+    text-decoration:none;
+    color:white;
+}

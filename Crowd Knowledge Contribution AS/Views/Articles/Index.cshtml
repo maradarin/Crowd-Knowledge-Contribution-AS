@@ -1,6 +1,10 @@
 ﻿
 <h1>@ViewBag.Message</h1>
 
+<head>
+    <link rel="stylesheet" href="~/Content/articleindexstyle.css">
+</head>
+
 <div class="container">
     <br />
     <div class="row justify-content-center">
@@ -12,12 +16,12 @@
                     </div>
                     <!--end of col-->
                     <div class="col">
-                        <input class="form-control form-control-lg form-control-borderless" type="text" name="search" value="@ViewBag.SearchString"
-                               placeholder="Search topics or keywords">
+                        <input class="submitbtn" type="text" name="search" value="@ViewBag.SearchString"
+                               placeholder="What do you wish to seek?">
                     </div>
                     <!--end of col-->
                     <div class="col-auto">
-                        <button class="btn btn-lg btn-success" type="submit">Search</button>
+                        <button class="searchbtn" type="submit">Delve deeper</button>
                     </div>
                     <!--end of col-->
                 </div>
@@ -27,63 +31,31 @@
     </div>
 </div>
 
-<div>
-    <nav aria-label="Page navigation">
-        <ul class="pagination">
-            <li>
-                @if (ViewBag.search != "")
-                {<a href="/Articles/Index?page=1&search=@ViewBag.SearchString" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                }
-                else
-                {
-                    <a href="/Articles/Index?page=1" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                }
-            </li>
-            @for (int i = 1; i <= ViewBag.lastPage; i++)
-            {
-                if (ViewBag.search != "")
-                {
-                    <li><a href="/Articles/Index?page=@i&search=@ViewBag.SearchString">@(i)</a></li>
-                }
-                else
-                {
-                    <li><a href="/Articles/Index?page=@i">@(i)</a></li>
-                }
-            }
-            <li>
-                @if (ViewBag.search != "")
-                {
-                    <a href="/Articles/Index?page=@(ViewBag.lastPage)&search=@ViewBag.SearchString" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                }
-                else
-                { <a href="/Articles/Index?page=@(ViewBag.lastPage)" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                }
-            </li>
-        </ul>
-    </nav>
-</div>
-
-@Html.ActionLink("Article Title", "Sorting", new { sortOrder = "articleTitle" })
-@Html.ActionLink("Last Modified", "Sorting", new { sortOrder = "lastModified" })
-@Html.ActionLink("User Name", "Sorting", new { sortOrder = "userName" })
-
+<p class="sortt">@Html.ActionLink("Article Title", "Sorting", null, new { sortOrder = "articleTitle", @class = "sortbtn" })</p>
+<p class="sortt">@Html.ActionLink("Last Modified", "Sorting", null, new { sortOrder = "lastModified", @class = "sortbtn" })</p>
+<p class="sortt">@Html.ActionLink("User Name", "Sorting", null, new { sortOrder = "userName", @class = "sortbtn" })</p>
+<p class="sortt">Sort by:</p>
 
 @foreach (Crowd_Knowledge_Contribution.Models.Article article in ViewBag.Articles)
 {
-    <div class="panel panel-default">
-        @Html.Partial("ArticleInfo", article)
-        <div class="panel-footer">
-            <a class="btn btn-sm btn btn-success" href="/Articles/Show/@article.ArticleId"> Afisare articol </a>
+    if (article.ArticleId % 3 == 1)
+    {
+        <div class="aicontainerforest">
+            @Html.Partial("ArticleInfo", article)
         </div>
-    </div>
+    }
+    else if (article.ArticleId % 3 == 2)
+    {
+        <div class="aicontainergraveyard">
+            @Html.Partial("ArticleInfo", article)
+        </div>
+    }
+    else
+    {
+        <div class="aicontainerhaunted">
+            @Html.Partial("ArticleInfo", article)
+        </div>
+    }
 }
 
 @if (User.IsInRole("Admin") || User.IsInRole("Editor"))

@@ -1,0 +1,104 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+.astitle {
+    font-family: "Stranger Night";
+    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 2px 2px darkred;
+    color: white;
+    position: relative;
+    top: 100px;
+    right: 750px;
+    text-decoration: none;
+}
+
+.astxt {
+    position: relative;
+    bottom: 7px;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    top: 130px;
+    left: 15px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px black;
+}
+.edits {
+    float: right;
+    position: relative;
+    left: 400px;
+    font-family: 'Staatliches', cursive;
+    text-decoration:none;
+}
+
+.linkss {
+    position: relative;
+    float: right;
+    top: -170px;
+    font-family: 'Staatliches', cursive;
+    text-decoration:none;
+}
+
+.chapterlist {
+    position: relative;
+    top: 170px;
+    width: 500px;
+    left: 50px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.chp {
+    color: white;
+    font-family: 'Friday 13th', cursive;
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 10px;
+    margin-left:40px;
+    font-size: 40px;
+
+}
+
+.restrict {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+.givebacc {
+    font-family: 'Staatliches', cursive;
+    color:white;
+    background-color:green;
+    border: 1px solid black;
+}
+
+.slink{
+    color:white;
+    text-decoration: none;
+    text-shadow:1px 1px darkred;
+}
+
+.slink:hover {
+    color: indianred;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.catlink:hover{
+    color:indianred;
+}
+
+.chpname {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px darkred;
+}
+.chpname:hover{
+    color:indianred;
+    text-shadow:black;
+}

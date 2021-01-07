@@ -1,11 +1,19 @@
 ﻿@{
     ViewBag.Title = "Adaugare categorie";
 }
+
+<head>
+    <link rel="stylesheet" href="~/Content/categorynewstyle.css">
+</head>
 <p>Afisare formular de adaugare categorie</p>
-<form method="post" action="/Categories/New">
-    <label>Nume</label>
-    <br />
-    <input type="text" name="CategoryName" />
-    <br /><br />
-    <button type="submit">Adauga categorie</button>
-</form>
+<div class="sform">
+    <div class="sformcontent">
+        <form method="post" action="/Categories/New">
+            <label class="stxt">Nume categorie</label>
+            <br />
+            <input type="text" name="CategoryName" />
+            <br /><br />
+            <button class="smodif" type="submit">Adauga categorie</button>
+        </form>
+    </div>
+</div>

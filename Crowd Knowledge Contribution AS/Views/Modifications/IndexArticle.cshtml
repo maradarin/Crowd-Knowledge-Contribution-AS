@@ -1,17 +1,22 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "IndexArticle";
 }
 
-<h2>Index</h2>
+<head>
+    <link rel="stylesheet" href="~/Content/modifchapterstyle.css">
+</head>
 
+<h1>ceva</h1>
 @foreach (var modification in ViewBag.Modifications)
 {
+<div class="dateuser" style="width:40%;border:none;">
     <h3>Article Title: @modification.OldInfo -> @modification.NewInfo</h3>
-    <form method="post" action="/Modifications/Delete/@modification.ModificationId">
-        @Html.HttpMethodOverride(HttpVerbs.Delete)
-        <button type="submit" class="btn btn-sm btn-danger">Restituie modificare</button>
-    </form>
+</div>
+        <form method="post" action="/Modifications/Delete/@modification.ModificationId">
+            @Html.HttpMethodOverride(HttpVerbs.Delete)
+            <button type="submit" class="ilink">Restituie modificare</button>
+        </form>
 
-    <br />
+        <br />
+    
 }

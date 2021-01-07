@@ -1,0 +1,63 @@
+﻿@font-face {
+    font-family: 'Friday 13th';
+    src: url('/fonts/Friday13.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'True Lies';
+    src: url('/fonts/TrueLies.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stranger Night';
+    src: url('/fonts/StrangerNight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bloody';
+    src: url('/fonts/BLOODY.TTF') format('truetype');
+}
+
+
+
+
+.navulnostru {
+    position:relative;
+    top: 0px;
+    border-radius: 5px;
+    font-family: 'True Lies';
+}
+
+.navulnostru p {
+    float: left;
+    color: white;
+    text-align: center;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.alstyle {
+    color: white;
+    text-decoration: none;
+    transition: font-size 1s;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.alstyle:hover {
+    font-size: 16px;
+}
+
+.loginchestie {
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+body {
+    background-color: black;
+}
+
+/*.navulnostru p.activat {
+    background-color: #4CAF50;
+    color: white;
+}*/

@@ -1,0 +1,27 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+.dateuser {
+    border: 1px solid darkred;
+    font-family: "Crimson Text",cursive;
+    color: white;
+    width: 70%;
+    position: relative;
+    left: 20px;
+    padding: 10px 10px 10px 10px;
+    font-weight:normal;
+    margin-top:20px;
+}
+
+.ilink {
+    background-color: darkgreen;
+    text-shadow: 2px 2px darkgreen;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Staatliches",cursive;
+    color: white;
+    position:relative;
+    border: 1px solid darkgreen;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+}

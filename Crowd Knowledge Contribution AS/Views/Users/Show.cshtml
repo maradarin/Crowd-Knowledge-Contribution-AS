@@ -3,41 +3,41 @@
 @{
     ViewBag.Title = "Detalii utilizator";
 }
-
+    <head>
+        <link rel="stylesheet" href="~/Content/articleeditstyle.css">
+    </head>
 <ol class="breadcrumb">
     <li><h3>@ViewBag.Title</h3></li>
 </ol>
 
 <div class="panel-heading">Nume utilizator: @Model.UserName</div>
 
-<div class="panel-body">
+<div class="eform">
+    <div class="eformcontent">
 
-    <i class="glyphicon glyphicon-envelope"></i> Email utilizator: <span class="label label-default">@Model.Email</span>
-    <br />
-    <i class="glyphicon glyphicon-th-list"></i> Rol utilizator: @ViewBag.roleName
+        <i class="glyphicon glyphicon-envelope"></i><p class="etxt">Email utilizator:</p>  <span class="etxtspecial">@Model.Email</span>
+        <br />
+        <i class="glyphicon glyphicon-th-list"></i><p class="etxt">Rol utilizator:</p>  <span class="etxtspecial"> @ViewBag.roleName </span>
 
-    <br /><br />
+        <br /><br />
 
-    @if (@Model.PhoneNumber != null)
-    {
-        <i class="glyphicon glyphicon-phone"></i>@:Telefon utilizator:<span class="label label-default">@Model.PhoneNumber</span>
-
-
-
-
-    }
-
-</div>
-
-@if ((string)Model.Id != ViewBag.utilizatorCurent)
-{
-    <div class="panel-footer">
-        @using (Html.BeginForm(actionName: "Delete", controllerName: "Users", routeValues: new { id = @Model.Id }))
+        @if (@Model.PhoneNumber != null)
         {
-            @Html.HttpMethodOverride(HttpVerbs.Delete)
-            <br />
-            <button class="btn btn-success" type="submit">Sterge utilizator</button>
-
+            <i class="glyphicon glyphicon-phone"></i><p class="etxt">Telefon utilizator:</p>@:<span class="etxtspecial">@Model.PhoneNumber</span>
         }
-    </div>
-}
+
+        @if ((string)Model.Id != ViewBag.utilizatorCurent)
+        {
+            <div class="panel-footer">
+                @using (Html.BeginForm(actionName: "Delete", controllerName: "Users", routeValues: new { id = @Model.Id }))
+                {
+                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                    <br />
+                    <button class="edelete" type="submit">Sterge utilizator</button>
+
+                }
+            </div>
+        }
+</div>
+</div>
+    

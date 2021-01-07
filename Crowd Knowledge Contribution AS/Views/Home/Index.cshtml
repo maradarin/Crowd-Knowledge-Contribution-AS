@@ -3,14 +3,40 @@
     ViewBag.Title = "Home Page";
 }
 
+<head>
+    <link rel="stylesheet" href="~/Content/homestyle.css">
+</head>
+
+
 @for (int i = 0; i < ViewBag.Categories.Count; i++)
 {
-    <div class="container">
-        <div class="row">@ViewBag.Categories[i].CategoryName</div>
-        <div class="row">@ViewBag.Articles[i].ArticleTitle</div>
-        <a href="/Home/Show/@ViewBag.Categories[i].CategoryId" style="text-decoration:none">Vedeti toate articolele</a>
-        <br/>
-    </div>
+    
+<div class="container">
+    @if (i == 0)
+    {
+        <img src="~/photos/BloodyEye.png" />
+    }
+    @if (i == 1)
+    {
+        <img src="~/photos/Gravestone.png" />
+    }
+    @if (i == 2)
+    {
+        <img src="~/photos/Castle.png" />
+    }
+    @if (i == 3)
+    {
+        <img src="~/photos/BloodyKnife.png" />
+    }
+    @if (i == 4)
+    {
+        <img src="~/photos/Bat.png" />
+    }
+<a href="/Home/Show/@ViewBag.Categories[i].CategoryId" style="text-decoration:none"><p class="cat"> <b>@ViewBag.Categories[i].CategoryName</b></p> </a>
+<a href="/Articles/Show/@ViewBag.Articles[i].ArticleId" style="text-decoration:none"><p class="art">Cel mai recent articol: @ViewBag.Articles[i].ArticleTitle</p> </a>
+    <br />
+</div>
+
 }
 
 

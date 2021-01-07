@@ -6,12 +6,14 @@
 <ol class="breadcrumb">
     <li><h3>@ViewBag.Title</h3></li>
 </ol>
-
+<head>
+    <link rel="stylesheet" href="~/Content/userindexstyle.css">
+</head>
 @foreach (var user in ViewBag.UsersList)
 {
     <div class="panel-heading">Nume utilizator: @user.UserName</div>
 
-    <div class="panel-body">
+    <div class="dateuser">
 
         <i class="glyphicon glyphicon-envelope"></i> Email utilizator: <span class="label label-default">@user.Email</span>
 
@@ -20,20 +22,16 @@
         @if (@user.PhoneNumber != null)
         {
             <i class="glyphicon glyphicon-phone"></i>@:Telefon utilizator:<span class="label label-default">@user.PhoneNumber</span>
-
-
-
-
         }
+        <div class="panel-footer">
 
+            <a class="ilink" href="/Users/Edit/@user.Id"> Editare utilizator</a>
+            <a class="ilink" href="/Users/Show/@user.Id"> Vizualizare utilizator</a>
+
+        </div>
     </div>
 
-    <div class="panel-footer">
-
-        <a class="btn btn-sm btn-success" href="/Users/Edit/@user.Id"> Editare utilizator</a>
-        <a class="btn btn-sm btn-success" href="/Users/Show/@user.Id"> Vizualizare utilizator</a>
-
-    </div>
+   
 
     <br />
     <br />

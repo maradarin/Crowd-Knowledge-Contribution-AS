@@ -4,25 +4,31 @@
     ViewBag.Title = "Edit";
 }
 
-
+<head>
+    <link rel="stylesheet" href="~/Content/articleeditstyle.css">
+</head>
+<div class="eform">
+    <div class="eformcontent">
 @using (Html.BeginForm(actionName: "Edit", controllerName: "Articles"))
 {
     @Html.HttpMethodOverride(HttpVerbs.Put)
     <br />
     @Html.HiddenFor(m => m.ArticleId)
 
-    @Html.Label("ArticleTitle", "Titlu articol")
-    <br />
+    <div class="etxt">@Html.Label("ArticleTitle", "Titlu articol")</div>
     @Html.Editor("ArticleTitle")
     @Html.ValidationMessageFor(m => m.ArticleTitle, "", new { @class = "text-danger" })
     <br /><br />
 
     @Html.HiddenFor(m => m.LastModified)
-    <label>Selectati categoria</label>
-    @Html.DropDownListFor(m => m.CategoryId,
+    <label class="etxt">Selectati categoria</label>
+    <div>@Html.DropDownListFor(m => m.CategoryId,
         new SelectList(Model.Categ, "Value", "Text"),
-        "Selectati categoria", new { @class = "form-control" })
+        "Selectati categoria", new { @class = "" })
     @Html.ValidationMessageFor(m => m.CategoryId, "", new { @class = "text-danger" })
-    <br />
-    <button class="btn btn-sm btn-success" type="submit"> Modifica articol </button>
+    </div>
+    <br /> <br/>
+    <button class="emodif" type="submit"> Modifica articolul </button>
 }
+    </div>
+</div>

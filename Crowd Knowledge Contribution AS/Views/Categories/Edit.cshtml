@@ -1,13 +1,20 @@
 ﻿
 @{
     ViewBag.Title = "Edit";
-}
-
-<form method="post" action="/Categories/Edit/@ViewBag.Category.CategoryId">
-    @Html.HttpMethodOverride(HttpVerbs.Put)
-    <label>Nume categorie</label>
-    <br />
-    <input type="text" name="CategoryName" value="@ViewBag.Category.CategoryName" />
-    <br /><br />
-    <button type="submit">Modifica categorie</button>
-</form>
+} 
+    <head>
+        <link rel="stylesheet" href="~/Content/categorynewstyle.css">
+    </head>
+<br /><br />
+    <div class="sform">
+        <div class="sformcontent">
+            <form method="post" action="/Categories/Edit/@ViewBag.Category.CategoryId">
+                @Html.HttpMethodOverride(HttpVerbs.Put)
+                <label class="stxt">Nume categorie</label>
+                <br />
+                <input type="text" name="CategoryName" value="@ViewBag.Category.CategoryName" />
+                <br /><br />
+                <button class="smodif" type="submit">Modifica categorie</button>
+            </form>
+        </div>
+    </div>

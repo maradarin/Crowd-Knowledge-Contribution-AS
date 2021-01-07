@@ -1,0 +1,11 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+.cat {
+    font-family: 'Bloody';
+    font-size: 50px;
+    color: #b4000d;
+    transition: color 0.5s;
+    position:relative;
+    left:42%;
+    width:200px;
+}

@@ -1,9 +1,8 @@
-﻿<div class="panel-heading"> @Model.ArticleTitle </div>
-<div class="panel-body">
-    <span class="label label-success"> @Model.LastModified </span>
-    <br />
-    <i class="glyphicon glyphicon-globe"></i> @Model.Category.CategoryName
-    <br />
-    <i class="glyphicon glyphicon-user"></i> <i> Articol scris de </i> <strong>@Model.User.UserName</strong>
+﻿<div><a class="aititle astitle" href="/Articles/Show/@Model.ArticleId"> @Model.ArticleTitle </a> </div>
+<div class="aiinfo asinfo">
+    <a class="aitxt astxt">Data uploadarii: @Model.LastModified</a>
+    @*<br />*@
+    <a href="/Home/Show/@Model.Category.CategoryId" class="aitxt astxt catlink" style="text-decoration:none"> Categorie: @Model.Category.CategoryName </a>
+    @*<br />*@
+    <a class="aitxt astxt">  Articol scris de: @Model.User.UserName </a>
 </div>
-

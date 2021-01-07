@@ -3,15 +3,40 @@
     ViewBag.Title = "Lista Categorii";
 }
 
+<head>
+    <link rel="stylesheet" href="~/Content/homestyle.css">
+</head>
+
 <h2>@ViewBag.Title</h2>
+<a href="/Categories/New" class="newcat">Adauga alta categorie</a>
+<br />
 @foreach (var category in ViewBag.Categories)
 {
-    <p>@category.CategoryName</p>
-    <a href="/Categories/Show/@category.CategoryId">Afisare categorie</a>
-    <br />
-    <hr />
-    <br />
+<div class="container">
+    @if (category.CategoryId == 1)
+    {
+        <img src="~/photos/BloodyEye.png" />
+    }
+    @if (category.CategoryId == 2)
+    {
+        <img src="~/photos/Gravestone.png" />
+    }
+    @if (category.CategoryId == 3)
+    {
+        <img src="~/photos/Castle.png" />
+    }
+    @if (category.CategoryId == 4)
+    {
+        <img src="~/photos/BloodyKnife.png" />
+    }
+    @if (category.CategoryId == 5)
+    {
+        <img src="~/photos/Bat.png" />
+    }
+    <a href="/Categories/Show/@category.CategoryId" class="cat" style="text-decoration:none;"><p>@category.CategoryName</p> </a>
+</div>
 }
-<a href="/Categories/New">Adauga alta categorie</a>
-<br />
+
+
+
 

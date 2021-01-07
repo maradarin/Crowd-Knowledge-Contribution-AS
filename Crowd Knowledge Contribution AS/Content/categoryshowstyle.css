@@ -1,0 +1,39 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.ntitle{
+    font-family: "Staatliches", cursive;
+    color: white;
+    text-shadow: 1px 1px darkred;
+    margin-top: 100px;
+}
+
+.emodif {
+    color: white;
+    font-family: "Staatliches", cursive;
+    background-color: darkgreen;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 17px;
+    transition: font-size linear 0.5s;
+    text-decoration:none;
+}
+
+.emodif:hover {
+    font-size: 18px;
+}
+
+.sdelete {
+    color: white;
+    font-family: "Staatliches", cursive;
+    background-color: darkred;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 17px;
+    transition: font-size 0.5s;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.sdelete:hover {
+    font-size: 18px;
+}

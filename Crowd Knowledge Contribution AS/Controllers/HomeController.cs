@@ -17,8 +17,15 @@ namespace Crowd_Knowledge_Contribution_AS.Controllers
             List<Article> articles = new List<Article>();
             foreach (Category category in categories)
             {
-                Article article = db.Articles.OrderByDescending(a => a.LastModified).First(a => a.CategoryId == category.CategoryId);
-                articles.Add(article);
+                if (db.Articles.Where(a => a.CategoryId == category.CategoryId).Count() == 0)
+                {
+                    ViewBag.Message = "No new articles";
+                }
+                else
+                {
+                    Article article = db.Articles.OrderByDescending(a => a.LastModified).First(a => a.CategoryId == category.CategoryId);
+                    articles.Add(article);
+                }
             }
             ViewBag.Categories = categories;
             ViewBag.Articles = articles;

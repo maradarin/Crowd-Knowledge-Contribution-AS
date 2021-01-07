@@ -1,0 +1,143 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.aicontainerforest {
+    color: black;
+    border: 1px solid #ccc;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 25%;
+    border-radius: 3px;
+    border-color: darkred;
+    margin-top: 30px;
+    background-image: url("/photos/ScarecrowForest.jpg");
+    background-size: 500px;
+}
+
+.aicontainergraveyard {
+    border: 1px solid #ccc;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 25%;
+    border-radius: 3px;
+    border-color: darkred;
+    margin-top: 30px;
+    background-image: url("/photos/Graveyard.jpeg");
+    background-size: 650px;
+    background-position: top 220px left 1px;
+}
+
+.aicontainerhaunted {
+    color: black;
+    border: 1px solid #ccc;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 25%;
+    border-radius: 3px;
+    border-color: darkred;
+    margin-top: 30px;
+    background-image: url("/photos/HauntedHouse.jpg");
+    background-size: 500px;
+    background-position: top 200px left 1px;
+}
+
+.aititle {
+    font-family: "Stranger Night";
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+    color: darkred;
+    width: 500px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.artimg{
+    width:25px;
+    height:auto;
+}
+
+.aitxt {
+    position: relative;
+    bottom: 7px;
+    font-size: 12px;
+    font-style: italic;
+    float: left;
+    position: relative;
+    top: 140px;
+    left: 15px;
+    margin: 10px;
+    color: darkred;
+    border-radius: 5px;
+    font-family: 'Yeon Sung', cursive;
+    text-shadow: 2px 2px black;
+}
+
+.submitbtn {
+    position:relative;
+    top: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid darkred;
+    border-radius: 2px;
+    width: 300px;
+    height: 25px;
+    font-family: 'Staatliches', serif;
+}
+
+::-webkit-input-placeholder {
+    color: darkred;
+    font-style: oblique;
+    position: relative;
+    left: 5px;
+    font-family: 'Staatliches', cursive;
+}
+
+.searchbtn {
+    color: white;
+    background: darkred;
+    border: 1px solid darkred;
+    border-radius: 2px;
+    position: relative;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    font-family: 'Bloody', serif;
+    top: 15px;
+    left: 2px;
+}
+
+.sortt {
+    position: relative;
+    float: right;
+    top: -15px;
+    color: darkred;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Staatliches', cursive;
+}
+
+.sortbtn {
+    color: white;
+    text-decoration: none;
+    transition: font-size 1s;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.sortbtn:hover {
+    font-size: 16px;
+}

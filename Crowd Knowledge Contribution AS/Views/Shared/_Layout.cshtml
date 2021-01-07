@@ -3,56 +3,39 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/layoutstyle.css">
 </head>
 <body>
-    <div class="navbar navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("MEGA IMAGE", "Index", "Articles", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <!--nume metoda controller-->
-                    <li>@Html.ActionLink("Afisare Articole", "Index", "Articles")</li>
 
-                    @if (User.IsInRole("Editor") || User.IsInRole("Admin"))
-                    {
-                        <li>@Html.ActionLink("Adaugare Articol", "New", "Articles")</li>
-                    }
+    @*<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            @Html.ActionLink("MEGA IMAGE", "Index", "Articles", new { area = "" }, new { @class = "navbar-brand" })
+        </div>*@
 
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <li>@Html.ActionLink("Afisare Categorii", "Index", "Categories")</li>
-                        <li>@Html.ActionLink("Adaugare Categorie", "New", "Categories")</li>
-                        <li>@Html.ActionLink("Afisare utilizatori", "Index", "Users")</li>
-                    }
-
-
-
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
+    <div class="navulnostru">
+        <p class="activat">@Html.ActionLink("ARTICOLE", "Index", "Articles", null, new { @class = "alstyle" })</p>
+        @if (User.IsInRole("Editor") || User.IsInRole("Admin"))
+        {
+            <p>@Html.ActionLink("ADAUGA ARTICOL", "New", "Articles", null, new { @class = "alstyle" })</p>
+        }
+        @if (User.IsInRole("Admin"))
+        {
+            <p>@Html.ActionLink("CATEGORII", "Index", "Categories", null, new { @class = "alstyle" })</p>
+            <p>@Html.ActionLink("ADAUGA CATEGORIE", "New", "Categories", null, new { @class = "alstyle" })</p>
+            <p>@Html.ActionLink("UTILIZATORI", "Index", "Users", null, new { @class = "alstyle" })</p>
+        }
+        @Html.Partial("_LoginPartial")
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
-
+    @RenderBody()
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

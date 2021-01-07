@@ -4,24 +4,37 @@
     ViewBag.Title = "Edit";
 }
 
+<head>
+    <link rel="stylesheet" href="~/Content/articleeditstyle.css">
+</head>
 
-@using (Html.BeginForm(actionName: "Edit", controllerName: "Chapters"))
-{
-    @Html.HttpMethodOverride(HttpVerbs.Put)
-    <br />
-    @Html.HiddenFor(m => m.ChapterId)
+<h1>ceva</h1>
 
-    @Html.Label("Title", "Titlu capitol")
-    <br />
-    @Html.EditorFor(m => m.ChapterTitle)
-    @Html.ValidationMessage("ChapterTitle", null, new { @class = "text-danger" })
-    <br /><br />
 
-    @Html.Label("Content", "Continut capitol")
-    <br />
-    @Html.EditorFor(m => m.ChapterContent)
-    @Html.ValidationMessage("ChapterContent", null, new { @class = "text-danger" })
-    <br /><br />
+<div class="eform">
+    <div class="eformcontent">
+        @using (Html.BeginForm(actionName: "Edit", controllerName: "Chapters"))
+        {
+            @Html.HttpMethodOverride(HttpVerbs.Put)
+            <br />
+            @Html.HiddenFor(m => m.ChapterId)
 
-    <button class="btn btn-sm btn-success" type="submit"> Modifica capitol </button>
-}
+            <div class="etxt">
+                @Html.Label("Title", "Titlu capitol")</div>
+                <br />
+                @Html.EditorFor(m => m.ChapterTitle)
+                @Html.ValidationMessage("ChapterTitle", null, new { @class = "text-danger" })
+                <br />
+                <br />
+
+                <div class="etxt">@Html.Label("Content", "Continut capitol")</div>
+                <br />
+                @Html.EditorFor(m => m.ChapterContent,null, new { @class="cpedit"})
+                @Html.ValidationMessage("ChapterContent", null, new { @class = "text-danger" })
+                <br />
+                <br />
+
+                <button class="emodif" type="submit"> Modifica capitol </button>
+                }
+            </div>
+</div>

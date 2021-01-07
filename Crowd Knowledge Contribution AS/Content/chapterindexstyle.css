@@ -1,0 +1,69 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.cptitle {
+    font-family: "Bloody";
+    text-transform: uppercase;
+    font-size: 55px;
+    text-shadow: 3px 3px darkred;
+    color: white;
+    font-weight:normal;
+    position:relative;
+    top:50px;
+    left:50px;
+    width:500px;
+}
+
+.cpcontent {
+    color: white;
+    width: 70%;
+    position: relative;
+    top: 50px;
+    left:15%;
+    font-family: "Crimson Text";
+    font-size: 18px;
+    margin-top:10px;
+}
+
+.cpback{
+    position:relative;
+    left:250px;
+    top:20px;
+    margin-top:5px;
+    font-family: "Yeon Sung";
+    color:white;
+    text-decoration:none;
+    text-shadow: 2px 2px darkred;
+    transition: font-size linear 0.5s;
+}
+.cpback:hover{
+    font-size:18px;
+}
+
+.cslinks{
+    float:right;
+    font-family: "Staatliches";
+    text-decoration:none;
+    color:white;
+    text-shadow: 2px 2px darkred;
+}
+
+.cslinks:hover{
+    color:indianred;
+    text-shadow: 2px 2px black;
+}
+
+.delbtn {
+    position:relative;
+    /*float: left;*/
+    background-color: darkred;
+    font-family: "Staatliches";
+    color:white;
+    border: 1px solid darkred;
+    font-size: 15px;
+}
+
+.delbtn:hover{
+    text-shadow: 2px 2px black;
+}

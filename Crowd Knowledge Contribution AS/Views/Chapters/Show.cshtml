@@ -2,31 +2,32 @@
 
 @{ ViewBag.Title = "Afisare capitol"; }
 
-<h1>@Model.ChapterTitle</h1>
-<p><p>@Model.Article.ArticleTitle</p></p>
-<small>@Model.Article.Category.CategoryName</small>
-<br />
-<strong> Continut </strong>
-<br />
-<p> @Html.Raw(Model.ChapterContent)</p>
-<br />
+<head>
+    <link rel="stylesheet" href="~/Content/chapterindexstyle.css">
+</head>
+<h1>ceva</h1>
+<h1 class="cptitle">@Model.ChapterTitle</h1>
+<a href="/Articles/Show/@Model.ArticleId" class="cpback">&#8611; Inapoi la lista capitolelor &#8610;</a>
 @if ((Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && User.IsInRole("Editor")) || User.IsInRole("Admin"))
 {
-    <a href="/Chapters/New/@Model.ArticleId">Adauga alt capitol</a>
+    <a href="/Chapters/New/@Model.ArticleId" class="cslinks">Adauga alt capitol</a>
     <br />
-    <a href="/Chapters/Edit/@Model.ChapterId">
+    <a href="/Chapters/Edit/@Model.ChapterId" class="cslinks">
         Modifica capitol
     </a>
     <form method="post" action="/Chapters/Delete/@Model.ChapterId">
         @Html.HttpMethodOverride(HttpVerbs.Delete)
-        <button type="submit">Sterge capitol</button>
+        <button type="submit" class="delbtn">Sterge capitol</button>
     </form>
 
-    <hr />
-    <a href="/Modifications/IndexChapter/@Model.ChapterId">Afisati modificarile</a>
+    <a href="/Modifications/IndexChapter/@Model.ChapterId" class="cslinks">Afisati modificarile</a>
     <br />
 }
-<hr />
-<a href="/Articles/Show/@Model.ArticleId">Inapoi la lista capitolelor</a>
+<br />
+<strong> Continut </strong>
+<br />
+<p class="cpcontent" style="margin:0px 0px 0px 0px;"> @Html.Raw(Model.ChapterContent)</p>
+<br />
+
 <br />
 

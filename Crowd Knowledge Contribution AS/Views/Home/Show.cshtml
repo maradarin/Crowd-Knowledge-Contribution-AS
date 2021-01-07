@@ -2,23 +2,39 @@
 @{
     ViewBag.Title = "Show";
 }
+<head>
+    <link rel="stylesheet" href="~/Content/homeshowstyle.css">
+    <link rel="stylesheet" href="~/Content/articleindexstyle.css">
+</head>
+<h1>Show</h1>
 
-<h2>Show</h2>
+<p class="cat">@ViewBag.Category.CategoryName</p>
 
-<h3>@ViewBag.Category.CategoryName</h3>
-
-@Html.ActionLink("Article Title", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "articleTitle" })
-@Html.ActionLink("Last Modified", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "lastModified" })
-@Html.ActionLink("User Name", "Show", new { id = @ViewBag.Category.CategoryId, sortOrder = "userName" })
+<p class="sortt">@Html.ActionLink("Article Title", "Sorting", null, new { sortOrder = "articleTitle", @class = "sortbtn" })</p>
+<p class="sortt">@Html.ActionLink("Last Modified", "Sorting", null, new { sortOrder = "lastModified", @class = "sortbtn" })</p>
+<p class="sortt">@Html.ActionLink("User Name", "Sorting", null, new { sortOrder = "userName", @class = "sortbtn" })</p>
+<p class="sortt">Sort by:</p>
 
 @foreach (Crowd_Knowledge_Contribution.Models.Article article in ViewBag.Articles)
 {
-    <div class="panel panel-default">
-        <div class="panel-footer">
-            <p>@article.ArticleTitle</p>
-            <a class="btn btn-sm btn btn-success" href="/Articles/Show/@article.ArticleId"> Afisare articol </a>
+    if (article.ArticleId % 3 == 1)
+    {
+        <div class="aicontainerforest">
+            @Html.Partial("ArticleInfo", article)
         </div>
-    </div>
+    }
+    else if (article.ArticleId % 3 == 2)
+    {
+        <div class="aicontainergraveyard">
+            @Html.Partial("ArticleInfo", article)
+        </div>
+    }
+    else
+    {
+        <div class="aicontainerhaunted">
+            @Html.Partial("ArticleInfo", article)
+        </div>
+    }
 }
 
 

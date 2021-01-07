@@ -1,0 +1,30 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.txtbox {
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width:200px;
+    font-size: 18px;
+    font-family: "Staatliches";
+}
+.etxt{
+    text-shadow: 2px 2px darkred;
+}
+
+.loginbtn {
+    color: white;
+    background: darkred;
+    border: 1px solid darkred;
+    border-radius: 2px;
+    position: relative;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    font-family: 'Bloody', serif;
+    top: 15px;
+    left: 2px;
+}
+
+

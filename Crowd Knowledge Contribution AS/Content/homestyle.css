@@ -1,0 +1,60 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+div.container {
+    margin: 5px;
+    border: 1px solid #b4000d;
+    border-radius: 3px;
+    float: left;
+    width: 400px;
+    height:200px;
+    position: relative;
+    top:50px;
+    left: 10px;
+    text-align:center;
+}
+
+img{
+    position:relative;
+    top:5px;
+    width:50px;
+    height: auto;
+}
+.cat {
+    font-family:'Bloody';
+    font-size: 30px;
+    color: #b4000d;
+    transition: color 0.5s;
+}
+
+.art {
+    font-size: 20px;
+    color: #e0bcc6;
+    transition: color 0.5s;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.cat:hover {
+    color: #e0bcc6;
+}
+
+.art:hover {
+    color: #BCE0D6;
+}
+
+.newcat {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-family: Staatliches;
+    text-decoration:none;
+    color: white;
+    background-color:darkgreen;
+    border: 3px solid darkgreen;
+    border-radius: 3px;
+    transition: font-size 0.5s;
+}
+
+.newcat:hover{
+    font-size: 15px;
+}
