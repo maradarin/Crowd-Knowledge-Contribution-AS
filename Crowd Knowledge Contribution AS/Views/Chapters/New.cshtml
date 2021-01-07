@@ -9,8 +9,8 @@
     </head>
 
 <h2>New</h2>
-<div class="eform">
-    <div class="eformcontent">
+<div class="eform_chapter">
+    <div class="eformcontent_am">
         @using (Html.BeginForm(actionName: "New", controllerName: "Chapters"))
         {
             @Html.ValidationSummary(false, "", new { @class = "text-danger" })
@@ -21,7 +21,7 @@
             <div class="etxt">@Html.Label("ChapterTitle", "Titlu capitol")</div>
             <!--click pe titlu articol -> focus pe textbox pt ca avem acelasi id (Title)-->
             <!--input type="text" name="Title" /-->
-            @Html.TextBox("ChapterTitle", null, new { @class = "form-control" })
+            @Html.TextBox("ChapterTitle", null, new { @class = "cpedit" })
             <!--nume din baza de date, valori implicite, proprietati de css-->
             <br />
             @Html.ValidationMessageFor(m => m.ChapterTitle, null, new { @class = "text-danger" })
@@ -30,7 +30,7 @@
             <div class="etxt">@Html.Label("ChapterContent", "Continut capitol")</div>
             <!--click pe titlu articol -> focus pe textbox pt ca avem acelasi id (Title)-->
             <!--input type="text" name="Title" /-->
-            <div class="cpcontent">@Html.TextBox("ChapterContent", null, new { @class = "cpcontent" })</div>
+            @Html.TextBox("ChapterContent", null, new { @class = "cpedit_am" })
             <!--nume din baza de date, valori implicite, proprietati de css-->
             <br />
             @Html.ValidationMessageFor(m => m.ChapterContent, null, new { @class = "text-danger" })

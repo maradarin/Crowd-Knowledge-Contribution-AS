@@ -98,7 +98,6 @@
     color: white;
     text-shadow: 2px 2px darkred;
 }
-.chpname:hover{
-    color:indianred;
-    text-shadow:black;
+.chpname a:hover{
+    background-color: aqua;
 }

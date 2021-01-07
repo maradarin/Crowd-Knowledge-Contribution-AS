@@ -11,8 +11,8 @@
 <h1>ceva</h1>
 
 
-<div class="eform">
-    <div class="eformcontent">
+<div class="eform_chapter">
+    <div class="eformcontent_am">
         @using (Html.BeginForm(actionName: "Edit", controllerName: "Chapters"))
         {
             @Html.HttpMethodOverride(HttpVerbs.Put)
@@ -22,14 +22,14 @@
             <div class="etxt">
                 @Html.Label("Title", "Titlu capitol")</div>
                 <br />
-                @Html.EditorFor(m => m.ChapterTitle)
+                @Html.EditorFor(m => m.ChapterTitle, null, new { htmlAttributes = new { @class = "cpedit" } })
                 @Html.ValidationMessage("ChapterTitle", null, new { @class = "text-danger" })
                 <br />
                 <br />
 
                 <div class="etxt">@Html.Label("Content", "Continut capitol")</div>
                 <br />
-                @Html.EditorFor(m => m.ChapterContent,null, new { @class="cpedit"})
+                @Html.EditorFor(m => m.ChapterContent, null, new { htmlAttributes = new { @class = "cpedit_am" } })
                 @Html.ValidationMessage("ChapterContent", null, new { @class = "text-danger" })
                 <br />
                 <br />

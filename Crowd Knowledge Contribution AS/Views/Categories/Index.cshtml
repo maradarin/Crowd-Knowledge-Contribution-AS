@@ -34,6 +34,13 @@
         <img src="~/photos/Bat.png" />
     }
     <a href="/Categories/Show/@category.CategoryId" class="cat" style="text-decoration:none;"><p>@category.CategoryName</p> </a>
+    <div class = "category_div">
+        <a class="ilink" href="/Categories/Edit/@category.CategoryId"> Editare categorie</a>
+        <form method="post" action="/Categories/Delete/@category.CategoryId" class= "category_form">
+            @Html.HttpMethodOverride(HttpVerbs.Delete)
+            <button type="submit" class="delbtn">Sterge categoria</button>
+        </form>
+    </div>
 </div>
 }
 

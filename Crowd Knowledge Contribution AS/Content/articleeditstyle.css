@@ -21,10 +21,26 @@
     justify-content:center;
 }
 
+.eform_chapter {
+    margin: auto;
+    width: 800px;
+    margin-top: 100px;
+    height: 500px;
+    border: 1px solid darkred;
+    border-radius: 2px;
+    left: 38%;
+}
+
 .eformcontent{
     position:relative;
     left:25%;
 }
+
+.eformcontent_am {
+    display: flex;
+    justify-content: center;
+}
+
 
 .emodif {
     color:white;
@@ -54,5 +70,10 @@
 }
 
 .cpedit{
-   width:500px;
+   width:400px;
+}
+
+.cpedit_am {
+    width: 400px;
+    height: 300px;
 }

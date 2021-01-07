@@ -58,3 +58,32 @@ img{
 .newcat:hover{
     font-size: 15px;
 }
+
+.ilink {
+    background-color: darkgreen;
+    /*text-shadow: 2px 2px darkgreen;*/
+    font-family: Staatliches;
+    border-radius: 2px;
+    border: 5.6px solid darkgreen;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.delbtn {
+    /* float: left; */
+    background-color: darkred;
+    font-family: "Staatliches";
+    color: white;
+    border-radius: 2px;
+    border: 5.6px solid darkred;
+    font-size: 15px;
+}
+
+.category_div {
+    display: inline-flex;
+}
+
+.category_form {
+    margin-left: 10px;
+}
