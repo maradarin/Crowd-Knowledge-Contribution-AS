@@ -5,38 +5,66 @@
 
 <head>
     <link rel="stylesheet" href="~/Content/homestyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,500,700,900" rel="stylesheet">
 </head>
 
 <h1>ceva</h1>
 
+
+<div class="drippy">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 0;height: 0;">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+
+    <h1 class="title">
+        GOREality
+        <span class="drop"></span>
+        <span class="drop"></span>
+        <span class="drop"></span>
+        <span class="drop"></span>
+
+    </h1>
+</div>
+
+<div class="hide">
+</div>
+
+
+
 @for (int i = 0; i < ViewBag.Categories.Count; i++)
 {
-    
-<div class="container">
-    @if (i == 0)
-    {
-        <img src="~/photos/BloodyEye.png" />
-    }
-    @if (i == 1)
-    {
-        <img src="~/photos/Gravestone.png" />
-    }
-    @if (i == 2)
-    {
-        <img src="~/photos/Castle.png" />
-    }
-    @if (i == 3)
-    {
-        <img src="~/photos/BloodyKnife.png" />
-    }
-    @if (i == 4)
-    {
-        <img src="~/photos/Bat.png" />
-    }
-<a href="/Home/Show/@ViewBag.Categories[i].CategoryId" style="text-decoration:none"><p class="cat"> <b>@ViewBag.Categories[i].CategoryName</b></p> </a>
-<a href="/Articles/Show/@ViewBag.Articles[i].ArticleId" style="text-decoration:none"><p class="art">Cel mai recent articol: @ViewBag.Articles[i].ArticleTitle</p> </a>
-    <br />
-</div>
+
+    <div class="container">
+        @if (i == 0)
+        {
+            <img src="~/photos/BloodyEye.png" />
+        }
+        @if (i == 1)
+        {
+            <img src="~/photos/Gravestone.png" />
+        }
+        @if (i == 2)
+        {
+            <img src="~/photos/Castle.png" />
+        }
+        @if (i == 3)
+        {
+            <img src="~/photos/BloodyKnife.png" />
+        }
+        @if (i == 4)
+        {
+            <img src="~/photos/Bat.png" />
+        }
+        <a href="/Home/Show/@ViewBag.Categories[i].CategoryId" style="text-decoration:none"><p class="cat"> <b>@ViewBag.Categories[i].CategoryName</b></p> </a>
+        <a href="/Articles/Show/@ViewBag.Articles[i].ArticleId" style="text-decoration:none"><p class="art">Cel mai recent articol: @ViewBag.Articles[i].ArticleTitle</p> </a>
+        <br />
+    </div>
 
 }
 
