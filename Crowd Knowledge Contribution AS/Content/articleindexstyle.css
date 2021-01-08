@@ -56,7 +56,7 @@
     text-transform: uppercase;
     font-size: 30px;
     text-shadow: 2px 2px black;
-    color: darkred;
+    color: crimson;
     width: 500px;
     border-radius: 5px;
     position: relative;
@@ -81,7 +81,7 @@
     top: 140px;
     left: 15px;
     margin: 10px;
-    color: darkred;
+    color: crimson;
     border-radius: 5px;
     font-family: 'Yeon Sung', cursive;
     text-shadow: 2px 2px black;

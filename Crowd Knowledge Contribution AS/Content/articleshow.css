@@ -34,6 +34,15 @@
     text-decoration:none;
 }
 
+.edits_am {
+    float: right;
+    position: relative;
+    left: 360px;
+    top: 0.5px;
+    font-family: 'Staatliches', cursive;
+    text-decoration: none;
+}
+
 .linkss {
     position: relative;
     float: right;

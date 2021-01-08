@@ -10,7 +10,11 @@
 @foreach (var modification in ViewBag.Modifications)
 {
 <div class="dateuser" style="width:40%;border:none;">
-    <h3>Article Title: @modification.OldInfo -> @modification.NewInfo</h3>
+    <h3>Article modifications: </h3>
+    <h3>&#10148;Before modifications: </h3>
+    @modification.OldInfo
+    <h3>&#10148;After modifications: </h3>
+    @modification.NewInfo
 </div>
         <form method="post" action="/Modifications/Delete/@modification.ModificationId">
             @Html.HttpMethodOverride(HttpVerbs.Delete)

@@ -51,16 +51,16 @@ namespace Crowd_Knowledge_Contribution.Controllers
             switch (sortOrder)
             {
                 case "articleTitle":
-                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.ArticleTitle);
+                    articles = db.Articles.Include("Category").Include("User").OrderBy(a => a.ArticleTitle);
                     break;
                 case "lastModified":
-                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.LastModified);
+                    articles = db.Articles.Include("Category").Include("User").OrderBy(a => a.LastModified);
                     break;
                 case "userName":
-                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.User.UserName);
+                    articles = db.Articles.Include("Category").Include("User").OrderBy(a => a.User.UserName);
                     break;
                 default:
-                    articles = db.Articles.Include("Category").Include("User").OrderByDescending(a => a.ArticleTitle);
+                    articles = db.Articles.Include("Category").Include("User").OrderBy(a => a.ArticleTitle);
                     break;
             }
             ViewBag.Articles = articles;

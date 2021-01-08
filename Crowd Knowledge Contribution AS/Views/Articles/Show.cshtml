@@ -15,7 +15,7 @@
 <br />
 <div>
 
-    <div class="edits">
+    <div style="float: right; position: relative; left: 360px; top: 0.5px; font-family: 'Staatliches', cursive; text-decoration: none">
         @if ((Model.User.UserName == System.Web.HttpContext.Current.User.Identity.Name && User.IsInRole("Editor")) || User.IsInRole("Admin"))
         {
             if (!Model.BaiatRau || User.IsInRole("Admin"))
